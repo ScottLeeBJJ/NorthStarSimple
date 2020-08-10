@@ -1,0 +1,45 @@
+.submit-report-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.submit-report-form input {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+}
+
+.form-wrapper {
+    background-color: blue;
+    padding: 100px;
+    color: yellow;
+}
+
+.name {
+    padding: 10px 15px;
+}
+.email {
+    padding: 10px 15px;
+}
+.phone {
+    padding: 10px 15px;
+}
+.address {
+    padding: 10px 15px;
+}
+
+.detail {
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    padding: 100px 100px;
+}
+
+.submit {
+    padding: 25px 25px;
+}
