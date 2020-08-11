@@ -37,9 +37,10 @@
     box-sizing: border-box;
     border-radius: 4px;
     border: none;
-    padding: 100px 100px;
+    padding: 75px 75px;
 }
 
 .submit {
     padding: 25px 25px;
+    cursor: pointer;
 }
