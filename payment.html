@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="reviews.html">
     <link rel="stylesheet" href="payment.html">
+    <link rel="stylesheet" href="client.js">
 
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/payment.css">
 </head>
 <body>
     <div class="header">
@@ -27,23 +29,37 @@
     
     <div class="payment-wrapper">
         Submit Payments Here
+        <script src="https://js.stripe.com/v3/"></script>
+
+        <div class="button">
+
+            <button id="checkout-button" data-secret="{{ session_id }}">
+                $119.99 Checkout
+            </button>
+
+            <button id="checkout-button" data-secret="{{ session_id }}">
+                $159.99 Checkout
+            </button>
+
+            <button id="checkout-button" data-secret="{{ session_id }}">
+                $219.99 Checkout
+            </button>
+
+        </div>
     </div>
 
     <div class="footer-wrapper">
-        <div class="contact">
-            <div class="phone">
-                555-555-5555
-            </div>
-        </div>
+
 
         <div class="vet-owned">
             <div class="marine-logo">
                 <img src="./images/vetowned.jfif" alt="logo">
+                <img src="./images/firefighter.jfif" alt="logo">
             </div>
         </div>
 
         <div class="veteran">
-            <h2>Veteran Owned</h2>
+            <h2>Veteran and First Responder Owned</h2>
         </div>
     </div>
 </body>

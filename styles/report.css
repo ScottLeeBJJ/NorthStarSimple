@@ -33,6 +33,7 @@
     padding: 10px 15px;
 }
 
+
 .detail {
     box-sizing: border-box;
     border-radius: 4px;
@@ -43,4 +44,10 @@
 .submit {
     padding: 25px 25px;
     cursor: pointer;
+}
+
+.veteran {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

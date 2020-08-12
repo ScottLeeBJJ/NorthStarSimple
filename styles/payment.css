@@ -1,0 +1,15 @@
+.payment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 500px;
+    padding: 50px;
+    background-color: blue;
+    color: yellow;
+}
+
+.button button{
+    display: grid;
+    margin-top: 15px;
+    margin-left: 15px;
+}

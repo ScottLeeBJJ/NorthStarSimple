@@ -27,33 +27,35 @@
     </div>
 
     <div class="submit-report-form">
+        <h3>Fill out the information here, press "Send" and this will open up your E-mail. In your E-mail, address the subject as "Home Inspection Report" and upload your pdf Home Inspection Report and send that E-mail.</h3>
         <div class="form-wrapper">
-            <form>
-                Name<input type="text" class="name">
-                Email<input type="text" class="email">
-                Phone #<input type="text" class="phone">
-                Address<input type="text" class="address">
-                Details of the home<input class="detail">
-                <input type="submit" class="submit">
+            <form action="mailto:scottlee5455@outlook.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                Upload File:<br>
+                <input type="file" name="fileToUpload" id="fileToUpload"><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>
             </form>
         </div>
     </div>
 
     <div class="footer-wrapper">
-        <div class="contact">
-            <div class="phone">
-                555-555-5555
-            </div>
-        </div>
 
         <div class="vet-owned">
             <div class="marine-logo">
                 <img src="./images/vetowned.jfif" alt="logo">
+                <img src="./images/firefighter.jfif" alt="logo">
             </div>
         </div>
 
         <div class="veteran">
-            <h2>Veteran Owned</h2>
+            <h2>Veteran and First Responder Owned</h2>
         </div>
     </div>
 </body>
